@@ -23,7 +23,7 @@
         "nuget"
       ],
       "groupName": "{{manager}} non-major dependencies",
-      "matchPackagePatterns": ["*"],
+      "matchPackageNames": ["*"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupSlug": "{{manager}}-minor-patch"
     },
@@ -31,7 +31,7 @@
       "matchManagers": ["npm"],
       "groupName": "npm non-major dependencies",
       "matchCurrentVersion": ">=1.0.0",
-      "matchPackagePatterns": ["*"],
+      "matchPackageNames": ["*"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupSlug": "npm-minor-patch"
     }

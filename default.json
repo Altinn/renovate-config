@@ -35,6 +35,13 @@
       "matchPackageNames": ["*"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupSlug": "npm-minor-patch"
+    },
+    {
+      "matchManagers": [
+        "dockerfile",
+        "github-actions"
+      ],
+      "pinDigests": true
     }
   ]
 }
